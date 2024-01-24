@@ -12,8 +12,8 @@ using webAPI.Data;
 namespace webAPI.Data.Migrations
 {
     [DbContext(typeof(webAPIDbContext))]
-    [Migration("20231224030907_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20240116202724_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -166,14 +166,14 @@ namespace webAPI.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2023, 12, 24, 5, 9, 6, 462, DateTimeKind.Local).AddTicks(6953),
+                            CreatedDate = new DateTime(2024, 1, 16, 22, 27, 23, 538, DateTimeKind.Local).AddTicks(6122),
                             Name = "Admin",
                             Value = 1
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2023, 12, 24, 5, 9, 6, 464, DateTimeKind.Local).AddTicks(4317),
+                            CreatedDate = new DateTime(2024, 1, 16, 22, 27, 23, 541, DateTimeKind.Local).AddTicks(1084),
                             Name = "User",
                             Value = 2
                         });
@@ -217,10 +217,10 @@ namespace webAPI.Data.Migrations
                         {
                             Id = 1,
                             Age = 20,
-                            CreatedDate = new DateTime(2023, 12, 24, 5, 9, 7, 261, DateTimeKind.Local).AddTicks(3249),
+                            CreatedDate = new DateTime(2024, 1, 16, 22, 27, 24, 487, DateTimeKind.Local).AddTicks(9998),
                             Email = "admin@gmail.com",
                             Height = 180,
-                            Password = "$2a$11$sMPkMD4HGG.wWdErrHo/yuuF4OXAq1EeB/WS2QGL0g1kajUuW.1Ze",
+                            Password = "$2a$11$bipmOt/eygRWXrCEJRRic.vMIql7Cy/wwW.vC486IQaRjo.biySM2",
                             SexString = "Male",
                             Username = "admin"
                         });

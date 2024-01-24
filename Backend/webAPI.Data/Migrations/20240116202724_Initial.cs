@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace webAPI.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class Initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -166,14 +166,14 @@ namespace webAPI.Data.Migrations
                 columns: new[] { "Id", "CreatedDate", "Name", "Value" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2023, 12, 24, 5, 9, 6, 462, DateTimeKind.Local).AddTicks(6953), "Admin", 1 },
-                    { 2, new DateTime(2023, 12, 24, 5, 9, 6, 464, DateTimeKind.Local).AddTicks(4317), "User", 2 }
+                    { 1, new DateTime(2024, 1, 16, 22, 27, 23, 538, DateTimeKind.Local).AddTicks(6122), "Admin", 1 },
+                    { 2, new DateTime(2024, 1, 16, 22, 27, 23, 541, DateTimeKind.Local).AddTicks(1084), "User", 2 }
                 });
 
             migrationBuilder.InsertData(
                 table: "UserModels",
                 columns: new[] { "Id", "Age", "CreatedDate", "Email", "Height", "Password", "SexString", "Username" },
-                values: new object[] { 1, 20, new DateTime(2023, 12, 24, 5, 9, 7, 261, DateTimeKind.Local).AddTicks(3249), "admin@gmail.com", 180, "$2a$11$sMPkMD4HGG.wWdErrHo/yuuF4OXAq1EeB/WS2QGL0g1kajUuW.1Ze", "Male", "admin" });
+                values: new object[] { 1, 20, new DateTime(2024, 1, 16, 22, 27, 24, 487, DateTimeKind.Local).AddTicks(9998), "admin@gmail.com", 180, "$2a$11$bipmOt/eygRWXrCEJRRic.vMIql7Cy/wwW.vC486IQaRjo.biySM2", "Male", "admin" });
 
             migrationBuilder.InsertData(
                 table: "UserRoles",
